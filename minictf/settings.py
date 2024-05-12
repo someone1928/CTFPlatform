@@ -21,7 +21,7 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['KEY'] #Keep it secret.. set env on herokuapp with name 'KEY'
+SECRET_KEY = "c@tq9tgdm++d9$=_8p#r@-ufj5898fa$f)-9a5-@*ljsib" #Keep it secret.. set env on herokuapp with name 'KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
